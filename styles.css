@@ -1,0 +1,129 @@
+/***
+CSS Template File for Project Euler Solutions
+***/
+/*******************/
+#container {
+  width: 99%;
+  height: 98%;
+  padding: 0.1%;
+  font-family: Helvetica;
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  right: 2px;
+  left: 2px;
+  border: 3px #AEAEB0 solid;
+}
+/*******************/
+#header {
+  position: absolute;
+  background-color: white;
+  top: 1px;
+  bottom: 1px;
+  right: 1px;
+  left: 1px;
+  text-align: center;
+}
+#header h1 {
+  color: black;
+  font-weight: lighter;
+}
+#header h2 {
+  color: #79797A;
+  margin-top: -20px;
+  font-weight: lighter;
+}
+#header img {
+  height: 65px;
+  width: 65px;
+  position: relative;
+  margin-top: -15px;
+}
+/************************/
+#logo img {
+  height: 40px;
+  weight: 40px;
+  position: absolute;
+  margin-top: -20px;
+  margin: 0 auto;
+  left: 50%;
+}
+/************************/
+#left-nav-line {
+  width: 25%;
+  height: 1px;
+  background-color: #AEAEB0;
+  position: absolute;
+  top: 8%;
+  left: 0
+}
+#right-nav-line {
+  width: 25%;
+  position: absolute;
+  top: 8%;
+  right: 0;
+  height: 1px;
+  background-color: #AEAEB0;
+}
+/*******************/
+#content{
+  position: absolute;
+  left: 23px;
+  top: 175px;
+  text-align: center;
+  display: inline-block;
+}
+.block {
+  border: 2px groove gray;
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  top: 50px;
+  vertical-align: top;
+  background-color: #F7F7F7;
+}
+.block h3 {
+  color: #57575B;
+  font-weight: lighter;
+  position: relative;
+}
+.block p {
+    font-weight: lighter;
+}
+
+.input-box{
+  margin-top: 22px;
+  height: 20px;
+  width: 175px;
+  display: block;
+  margin: 25px auto;
+}
+.my-button {
+  height: 30px;
+  width: 95px;
+  color: #464646;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #F2F2F2;
+  border: 1px solid #CFCFCF;
+  display: block;
+  margin: 0 auto;
+}
+button:hover {
+  border: 1px solid #A9A9A9;
+  font-weight: bolder;
+}
+/*******************/
+#problem-one {
+
+}
+
+#problem-one {
+
+}
+#problem-one {
+
+}
+/*******************/

@@ -12,7 +12,6 @@ CSS Template File for Project Euler Solutions
   bottom: 2px;
   right: 2px;
   left: 2px;
-  border: 3px #AEAEB0 solid;
 }
 /*******************/
 #header {
@@ -53,13 +52,13 @@ CSS Template File for Project Euler Solutions
   height: 1px;
   background-color: #AEAEB0;
   position: absolute;
-  top: 8%;
+  top: 54px;
   left: 0
 }
 #right-nav-line {
   width: 25%;
   position: absolute;
-  top: 8%;
+  top: 53px;
   right: 0;
   height: 1px;
   background-color: #AEAEB0;
@@ -73,14 +72,14 @@ CSS Template File for Project Euler Solutions
   display: inline-block;
 }
 .block {
-  border: 2px groove gray;
-  border-radius: 5px;
   width: 400px;
   height: 400px;
   display: inline-block;
   top: 50px;
   vertical-align: top;
   background-color: #F7F7F7;
+  padding: 1px;
+  margin: 0 auto;
 }
 .block h3 {
   color: #57575B;
@@ -92,7 +91,7 @@ CSS Template File for Project Euler Solutions
     padding: 30px;
 }
 
-.input-box{
+.input-box {
   margin-top: 22px;
   height: 20px;
   width: 175px;
@@ -109,7 +108,10 @@ CSS Template File for Project Euler Solutions
   background-color: #F2F2F2;
   border: 1px solid #CFCFCF;
   display: block;
+  position: relative;
   margin: 0 auto;
+  bottom: 0;
+  right: 0;
 }
 button:hover {
   border: 1px solid #A9A9A9;
@@ -117,13 +119,12 @@ button:hover {
 }
 /*******************/
 #problem-one {
-
 }
 
 #problem-one {
 
 }
-#problem-one {
 
+#problem-one {
 }
 /*******************/

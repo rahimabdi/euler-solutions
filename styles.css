@@ -16,7 +16,6 @@ CSS Template File for Project Euler Solutions
 }
 /*******************/
 #header {
-  position: absolute;
   background-color: white;
   top: 1px;
   bottom: 1px;
@@ -43,7 +42,7 @@ CSS Template File for Project Euler Solutions
 #logo img {
   height: 40px;
   weight: 40px;
-  position: absolute;
+  position: relative;
   margin-top: -20px;
   margin: 0 auto;
   left: 50%;
@@ -90,6 +89,7 @@ CSS Template File for Project Euler Solutions
 }
 .block p {
     font-weight: lighter;
+    padding: 30px;
 }
 
 .input-box{

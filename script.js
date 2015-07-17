@@ -49,11 +49,19 @@ var computeSumThree = function ()
                   greatestPrimeFactorSoFar = i;
                 }
           }
+          var primeCheck = greatestPrimeFactorSoFar;
           if (greatestPrimeFactorSoFar == 1)
           {
              alert("The greatest prime factor is " + inputValue + ".");
           }
           else {
+              for (var j = Math.floor(Math.sqrt(inputValue)); j < inputValue; j++)
+              {
+                if ((inputValue % j) == 0 && !(j % primeCheck == 0))
+                  {
+                    greatestPrimeFactorSoFar = j;
+                  }
+              }
               alert("The greatest prime factor is " + greatestPrimeFactorSoFar + ".");
           }
   }

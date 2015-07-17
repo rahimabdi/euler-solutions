@@ -13,7 +13,7 @@ var computeSumOne = function ()
       finalSum+= i;
     }
   }
-  alert(finalSum);
+  alert("The sum is " + finalSum);
 }
 
 var computeSumTwo = function ()
@@ -21,7 +21,7 @@ var computeSumTwo = function ()
   var finalSum = 0;
   var inputValue = document.getElementById("inputTwo").value;
   finalSum = fib(inputValue);
-  alert (finalSum);
+  alert ("The sum is " + finalSum);
 }
 
 var fib = function(input)
